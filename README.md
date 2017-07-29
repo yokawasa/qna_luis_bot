@@ -1,2 +1,2 @@
 # qna_luis_bot
-QnA Luis Bot
+QnA Bot Application using QnAMaker, LUIS, and Microsoft Bot Framework
