@@ -1,0 +1,166 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "QnaLuisBotAppJa",
+  "desc": "",
+  "culture": "ja-jp",
+  "intents": [
+    {
+      "name": "Greeting"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Search"
+    }
+  ],
+  "entities": [
+    {
+      "name": "QuestionTopic"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "こんにちは",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "ハロー",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "はろー",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "tell me about xx",
+      "intent": "Search",
+      "entities": [
+        {
+          "entity": "QuestionTopic",
+          "startPos": 14,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "want to know about xx",
+      "intent": "Search",
+      "entities": [
+        {
+          "entity": "QuestionTopic",
+          "startPos": 19,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "want to know more about xx",
+      "intent": "Search",
+      "entities": [
+        {
+          "entity": "QuestionTopic",
+          "startPos": 24,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "what is xx",
+      "intent": "Search",
+      "entities": [
+        {
+          "entity": "QuestionTopic",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "xxが知りたいです",
+      "intent": "Search",
+      "entities": [
+        {
+          "entity": "QuestionTopic",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "xxって知ってる？",
+      "intent": "Search",
+      "entities": [
+        {
+          "entity": "QuestionTopic",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "xxについておしえて",
+      "intent": "Search",
+      "entities": [
+        {
+          "entity": "QuestionTopic",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "xxについて教えてください",
+      "intent": "Search",
+      "entities": [
+        {
+          "entity": "QuestionTopic",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "xxが分かりません",
+      "intent": "Search",
+      "entities": [
+        {
+          "entity": "QuestionTopic",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "xxについておしえてー",
+      "intent": "Search",
+      "entities": [
+        {
+          "entity": "QuestionTopic",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    }
+  ]
+}
